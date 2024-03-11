@@ -1,8 +1,7 @@
 // import { CounterApp } from "./01-useState/CounterApp";
-
 // import { TodoApp } from "./08-useReducer/TodoApp";
+// import { HomePage } from "./09-useContext/HomePage";
 import { MainApp } from "./09-useContext/MainApp";
-
 // import { FormWithCustomHook } from "./02-useEffect/FormWithCustomHook";
 // import { MultipleCustomHook } from "./03-examples/MultipleCustomHook";
 // import { FocusScreen } from "./04-useRef/FocusScreen";
@@ -17,10 +16,11 @@ import { MainApp } from "./09-useContext/MainApp";
 
 function HooksApp() {
   return (
-    <>
+    <div className="m-3">
       <h1>Hooks App</h1>
-      <MainApp/>
-    </>
+     
+      <MainApp />
+    </div>
   );
 }
 
